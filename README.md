@@ -1,5 +1,23 @@
 # WebAppBase
 
+## Docker
+
+### Build 
+
+```
+docker build -f Dockerfile -t wanku-cl/web-app-base:local .
+```
+### Run
+```
+docker run -p 4000:4000 --name web-app-base -d -t -i --network wanku-cl-net wanku-cl/web-app-base:local 
+```
+#### Need to run
+You need a docker network called `wanku-cl-net`. To create it, if it don't exist, run the following command:
+```
+docker network create wanku-cl-net
+```
+
+# Default documentation
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.12.
 
 ## Development server
