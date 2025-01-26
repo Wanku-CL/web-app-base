@@ -1,4 +1,8 @@
 # WebAppBase
+This project is a base for web applications. It has a login page and a home page. 
+The login page has a form with two fields: username and password. 
+The home page has a welcome message and a logout button. 
+The application uses a fake backend to authenticate users, store users in local storage and handle login/logout actions.
 
 ## Docker
 
