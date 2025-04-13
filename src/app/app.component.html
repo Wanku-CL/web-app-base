@@ -1,9 +1,13 @@
-<header>
-  <p>Web App Base</p>
-</header>
+<div class="d-flex flex-column m-0">
+  <header class="bg-info p-2 text-white">
+    <p>Web App Base</p>
+  </header>
 
-<router-outlet></router-outlet>
+  <main class="flex-fill d-flex flex-column">
+    <router-outlet></router-outlet>
+  </main>
 
-<footer>
-  <p>by &#64;Wanku.CL</p>
-</footer>
+  <footer class="bg-dark text-white p-2">
+    <p>by &#64;Wanku.CL</p>
+  </footer>
+</div>
